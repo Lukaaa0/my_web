@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Lobster' ,cursive;
+text-align: center;
+}
+
+
+.caja {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #f2f2f2;
+}
+
+
+.opcion {
+    width: 100px;
+    height: 100px;
+    background-color: #6e34db;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+
+.opcion:hover {
+    background-color: #cfbbff;
+}
